@@ -1,0 +1,5 @@
+000001 12.5 Ice_Cream_Alagida
+000002 3.2 Tomato
+000003 8.1 Milk_Moo
+000004 1.29 Ham_Master_Pig
+000005 1.1 LollyPop

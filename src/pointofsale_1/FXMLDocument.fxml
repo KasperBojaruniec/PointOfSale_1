@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="474.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pointofsale_1.FXMLDocumentController">
+   <children>
+      <Pane prefHeight="474.0" prefWidth="759.0">
+         <children>
+            <ScrollPane layoutX="14.0" layoutY="210.0" prefHeight="189.0" prefWidth="402.0">
+               <content>
+                  <ListView fx:id="list" prefHeight="179.0" prefWidth="396.0" />
+               </content>
+            </ScrollPane>
+            <Pane layoutX="416.0" layoutY="112.0" prefHeight="348.0" prefWidth="331.0">
+               <children>
+                  <Button layoutY="97.0" mnemonicParsing="false" onAction="#handleScanAction" prefHeight="132.0" prefWidth="331.0" text="Scan">
+                     <font>
+                        <Font size="43.0" />
+                     </font>
+                  </Button>
+                  <Button layoutY="229.0" mnemonicParsing="false" onAction="#handlePrintAction" prefHeight="119.0" prefWidth="331.0" text="Print">
+                     <font>
+                        <Font size="43.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="id_input" alignment="CENTER" layoutX="7.0" layoutY="8.0" prefHeight="87.0" prefWidth="317.0" promptText="-CODE HERE-">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </Pane>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="6.0" prefHeight="107.0" prefWidth="736.0" text="Point Of Sale">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Label>
+            <Pane layoutX="14.0" layoutY="125.0" prefHeight="87.0" prefWidth="402.0">
+               <children>
+                  <Label fx:id="label" layoutY="6.0" prefHeight="75.0" prefWidth="402.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font></Label>
+               </children>
+            </Pane>
+            <Label fx:id="totalCostLabel" layoutX="14.0" layoutY="406.0" prefHeight="58.0" prefWidth="402.0" text="Total Cost:">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
